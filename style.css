@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Orbitron:wght@400;500&family=PT+Sans:wght@400;700&family=Poppins:wght@300;700&family=Roboto:wght@400;700&family=Ubuntu:wght@500&family=Varela+Round&display=swap');
+
+
+/* 
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Varela Round', sans-serif;
+
+ */
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+nav{
+	font-family: 'Ubuntu', sans-serif;
+	color: white;
+/* 	height: 50px; */
+padding: 10px;
+	background: black;
+}
+
+
+nav ul{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	list-style-type: none;
+}
+
+nav ul {
+	gap: 20px;
+}
+
+
+nav ul li a{
+	color: white;
+	padding: 5px 0px;
+	text-decoration: none;
+}
+.logo{
+	padding: 10px;
+}
+
+.logo img{
+	width: 30px;
+	margin-top: -10px;
+
+}
+
+.logo li{
+	margin-top: -25px;
+	margin-left: 35px;
+}
+
